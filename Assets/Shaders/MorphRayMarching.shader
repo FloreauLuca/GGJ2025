@@ -19,7 +19,7 @@ Shader"MorphShader"
         //_MyCubemap("Cubemap", CUBE) = "" {}
         _MainTex("Texture", 2D) = "white" {}
         _SpherePos("SpherePos", Vector) = (0,0,0)
-        _SphereRadius("SphereRadius", Float) = 1
+        //_SphereRadius("SphereRadius", Float) = 1
 
         _Smooth("Smooth", Float) = 1
 
@@ -66,6 +66,7 @@ Shader"MorphShader"
             int _SphereCount = 1;
             float3 _SpherePos;
             float4 _SpheresPos[10];
+            float _SpheresRadius[10];
             float _SphereRadius;
 
             float _Smooth;
@@ -132,7 +133,7 @@ Shader"MorphShader"
                 float scene = 1;
                 for(int i = 0; i < _SphereCount; i++)
                 {
-                    float sphere = sdSphere(p, _SpheresPos[i], _SphereRadius); // sphere
+                    float sphere = sdSphere(p, _SpheresPos[i], _SpheresRadius[i]); // sphere
                     scene = smoothMin(sphere, scene, _Smooth);
                 }
                 //float square = sdBox(p, float3(0,-1,0), float3(0.7,0.1,0.6));
@@ -194,7 +195,7 @@ Shader"MorphShader"
                 float3 p = ro + rd * d;
                 float3 n = GetNormal(p);
                 col.rgba = computeTexture(n, ro);
-                
+                //col.rgba = float4(float3(d/MAX_DIST, d/MAX_DIST, d/MAX_DIST), 1); depthh
                 return col;
             }
             ENDCG

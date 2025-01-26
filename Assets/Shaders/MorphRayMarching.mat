@@ -29,12 +29,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FresnelStrength: 0.6
-    - _Smooth: 2
-    - _SphereRadius: 0.25
+    - _FresnelStrength: 0.27
+    - _Smooth: 0.4
+    - _SphereRadius: 0.40554717
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0.08602142, a: 1}
+    - _Color: {r: 0.5754717, g: 0.04071733, b: 0.24712011, a: 1}
     - _FresnelStrength: {r: 1, g: 1, b: 1, a: 1}
-    - _SpherePos: {r: -0.655, g: 0.864, b: 0, a: 0}
+    - _SpherePos: {r: 1.613, g: 0.126, b: -1.7587793, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
