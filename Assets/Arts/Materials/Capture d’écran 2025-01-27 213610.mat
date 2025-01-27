@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MorphRayMarching
+  m_Name: "Capture d\u2019\xE9cran 2025-01-27 213610"
   m_Shader: {fileID: 4800000, guid: 6ebe48eb3801de9448c24dcb5b481b21, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 3000
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -29,12 +29,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _FresnelStrength: 0.27
-    - _Smooth: 0.5
-    - _SphereRadius: 0.40554717
+    - _FresnelStrength: 1
+    - _Smooth: 1
     m_Colors:
-    - _Color: {r: 0.5754717, g: 0.04071733, b: 0.24712011, a: 1}
-    - _FresnelStrength: {r: 1, g: 1, b: 1, a: 1}
-    - _SpherePos: {r: 1.613, g: 0.126, b: -1.7587793, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _SpherePos: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

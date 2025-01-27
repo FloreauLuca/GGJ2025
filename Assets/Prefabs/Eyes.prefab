@@ -97,7 +97,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4874126678125670354, guid: 35cc928bd191d9c40a84767a14d7402f, type: 3}
+  - {fileID: 2100000, guid: 1ea0bbd5cd56dc844b1d075bbf794018, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -183,7 +183,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 4874126678125670354, guid: 35cc928bd191d9c40a84767a14d7402f, type: 3}
+  - {fileID: 2100000, guid: 1ea0bbd5cd56dc844b1d075bbf794018, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -293,6 +293,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pupil
       objectReference: {fileID: 0}
+    - target: {fileID: 6829333093618665122, guid: 35cc928bd191d9c40a84767a14d7402f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ea0bbd5cd56dc844b1d075bbf794018, type: 2}
+    - target: {fileID: 8100320773420232829, guid: 35cc928bd191d9c40a84767a14d7402f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 696b43fa0469d3a4f81c0501388e9847, type: 2}
     - target: {fileID: 9179017853419834167, guid: 35cc928bd191d9c40a84767a14d7402f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8990281
@@ -444,6 +452,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pupil
       objectReference: {fileID: 0}
+    - target: {fileID: 6829333093618665122, guid: 35cc928bd191d9c40a84767a14d7402f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 1ea0bbd5cd56dc844b1d075bbf794018, type: 2}
+    - target: {fileID: 8100320773420232829, guid: 35cc928bd191d9c40a84767a14d7402f, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 696b43fa0469d3a4f81c0501388e9847, type: 2}
     - target: {fileID: 9179017853419834167, guid: 35cc928bd191d9c40a84767a14d7402f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8990281
